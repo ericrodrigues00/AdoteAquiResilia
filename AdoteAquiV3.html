@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Adote Aqui</title>
+    <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+       
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: "Montserrat";
+            
+        }
+    
+        
+       .rodape{
+           background-color:#c46b6b ;
+           height: 5%;
+           width: 100%;
+           text-align: center;
+       }
+
+        .corpo{
+            padding-top: 1.5%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #ffffe5;
+            
+        }
+    
+        .cabecalho{
+            background-color: #c46b6b
+            
+            
+        }
+
+        .item{
+            display: inline-block;
+            padding: 0 12px;
+        }
+
+
+        .navera{
+            list-style: none;
+         
+        }
+        
+        .link{
+            text-decoration: none;
+            color: black
+
+
+        }
+
+        .cardplayer img{
+            width: 128px;
+            height: 128px;
+        }
+
+        .cardplayer img:hover{
+           
+            width: 156px;
+            height: 156px;
+        }
+
+
+
+        .titulosite{
+            color: white;
+        }
+
+        
+
+
+        header{
+            padding: 1.5% 5%;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            
+            font-size: 20px;
+        }
+
+        .link{
+            transition: all 0.3s ease 0s;
+        }
+
+        .link:hover{
+            color: white;
+        }
+
+        .cardplayer{
+            
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: auto;
+            margin-left: 1.5%;
+            margin-right: 1.5%;
+            margin-top: 0.5%;
+            margin-bottom: 0.5%;
+            width: 200px;
+            height: 350px;
+            text-align: center;
+            
+        }
+
+        .cardplayer h2{
+            font-size: 16px;
+        }
+
+        .btn{
+            border: none;
+            background-color: transparent;
+        }
+
+
+        .fogo{
+            color: darkred;
+        }
+           
+        .agua{
+            color: darkblue;
+        }
+
+        .grama{
+            color: darkgreen;
+
+        }
+
+        .legenda{
+            text-align: center;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            background-color: #ffffe5;
+        }
+
+        .imgtxt{
+            padding: 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffe5;
+
+        }
+
+        .caixatexto{
+            width: 30vw;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .imgpikachu{
+            border: 5px solid black;
+            border-radius: 22px;
+            
+        }
+        
+       
+        @media (max-width: 1260px){ 
+
+            .imgtxt{
+                padding: 2%;
+            }
+
+
+            .caixatexto{
+                font-size: 24px;
+            }
+
+
+                .imgpikachu{
+                    width: 256px;
+                    height: 256px;
+                }
+            
+                .video{
+                    flex-direction: column-reverse;
+                    align-items: center;
+                    
+                }
+
+                .malek{
+                    font-size: 24px;
+                    height: 15%;
+                    margin-bottom: 50px;
+                }
+
+            }
+
+
+
+
+
+
+        @media (max-width: 550px){
+            .titulosite{
+                display: none;
+            }
+            .navera{
+                display: flex;
+                align-self: center;
+                flex-direction: column;
+
+                
+            }
+            }
+
+            .video{
+                display: flex;
+                justify-content: space-between;
+                padding: 5%;
+                align-items: center;
+                background-color: #ffffe5;
+            }
+
+                    .videotxt{
+                        width: 30%;
+                        height: 30%;
+                        text-align: center;
+                        font-size: 30px;
+                    }
+
+                    .videopok{
+                        border: 5px solid black;               
+                        border-radius: 22px;
+                    
+                    
+                    }
+
+    </style>
+
+
+</head>
+
+<body>
+    <section class="cabecalho">
+        <header class="cabecalho">
+            <h2 class="titulosite">AdoteAqui</h2>
+
+            <nav>
+                <ul class="navera">
+                    <li class="item"><a class="link" href="#">Contato</a></li>
+                    <li class="item"><a class="link" href="#">Home</a></li>
+                    <li class="item"><a class="link" href="#">Redes</a></li>
+                    
+                </ul>
+            </nav>
+
+        </header>
+    </section>
+
+        <div class="legenda">
+
+            <h3>Adote um de nossos pokemons e mude uma vida hoje.</h3>
+        </div>  
+
+
+    <main class="corpo">
+        <div class="cardplayer">
+            <a href="google.com"> <button class="btn"></a>
+                <img src="pok1.png">
+                <span>
+                   
+                    <h2>Bulbassauro</h2>
+                    <br>
+                    <h4 class="grama">Grama</h4>
+                    </button>
+                </span>
+         </div>       
+
+         <div class="cardplayer">
+            
+            <img src="pok1 (3).png">
+            <span>
+                <h2>Ivyssauro</h2>
+                <br>
+                <h4 class="grama">Grama</h4>
+            </span>
+     </div>       
+
+            <div class="cardplayer">
+            
+                <img src="pok1 (4).png">
+                <span>
+                    <h2>Venossauro</h2>
+                    <br>
+                    <h4 class="grama">Grama</h4>
+                </span>
+         </div>       
+        
+ 
+         <div class="cardplayer">
+            
+            <img src="pok1 (5).png">
+            <span>
+                <h2>Charmander</h2>
+                <br>
+                <h4 class="fogo">Fogo</h4>
+            </span>
+        </div>       
+
+
+     <div class="cardplayer">
+            
+        <img src="pok1 (6).png">
+        <span>
+            <h2>Charmeleon</h2>
+            <br>
+            <h4 class="fogo">Fogo</h4>
+        </span>
+    </div>       
+
+    <div class="cardplayer">
+            
+        <img src="pok1 (7).png">
+        <span>
+            <h2>Charizard</h2>
+            <br>
+            <h4 class="fogo">Fogo</h4>
+        </span>
+ </div>       
+
+ <div class="cardplayer">
+            
+    <img src="pok1 (8).png">
+    <span>
+        <h2>Squirtle</h2>
+        <br>
+        <h4 class="agua">Agua</h4>
+    </span>
+</div>      
+
+<div class="cardplayer">
+            
+    <img src="pok1 (9).png">
+    <span>
+        <h2>Wartortle</h2>
+        <br>
+        <h4 class="agua">Agua</h4>
+    </span>
+</div>       
+
+<div class="cardplayer">
+            
+    <img src="pok1 (10).png">
+    <span>
+        <h2>Blastoise</h2>
+        <br>
+        <h4 class="agua">Agua</h4>
+    </span>
+</div>       
+
+<div class="cardplayer">
+
+<img src="pok1 (11).png">
+<span>
+    <h2>Caterpie</h2>
+    <br>
+    <h4 class="grama">Inseto</h4>
+</span>
+</div>       
+
+<div class="cardplayer">
+
+    <img src="pok1 (12).png">
+    <span>
+        <h2>Metapod</h2>
+        <br>
+        <h4 class="grama">Inseto</h4>
+    </span>
+</div>       
+
+
+<div class="cardplayer">
+
+<img src="pok1 (13).png">
+<span>
+    <h2>Butterfree</h2>
+    <br>
+    <h4 class="grama">Inseto</h4>
+</span>
+</div>       
+
+
+<div class="cardplayer">
+
+<img src="pok1 (14).png">
+<span>
+<h2>Weedle</h2>
+<br>
+<h4 class="grama">Inseto</h4>
+</span>
+</div>       
+
+<div class="cardplayer">
+
+<img src="pok1 (15).png">
+<span>
+<h2>Kakuna</h2>
+<br>
+<h4 class="grama">Inseto</h4>
+</span>
+</div>       
+
+<div class="cardplayer">
+
+<img src="pok1 (16).png">
+<span>
+<h2>Beedrill</h2>
+<br>
+<h4 class="grama">Inseto</h4>
+</span>
+</div>       
+
+<div class="cardplayer">
+
+<img src="pok1 (17).png">
+<span>
+<h2>Pidgey</h2>
+<br>
+<h4 class="agua">Voador</h4>
+</span>
+</div>  
+
+<div class="cardplayer">
+
+    <img src="pok1 (18).png">
+    <span>
+    <h2>Pidgeotto</h2>
+    <br>
+    <h4 class="agua">Voador</h4>
+    </span>
+    </div>  
+    
+    <div class="cardplayer">
+
+        <img src="pok1 (19).png">
+        <span>
+        <h2>Pidgeot</h2>
+        <br>
+        <h4 class="agua">Voador</h4>
+        </span>
+        </div>  
+        
+    </main>
+
+    <section class="imgtxt">
+        <div class="caixatexto">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis eleifend elit, at elementum elit pulvinar in. Suspendisse feugiat, nisl a bibendum lobortis, est.</p>
+        </div>
+        <img class="imgpikachu" src="https://i.pinimg.com/564x/2a/11/32/2a11326d281a0cbc1d5e0fcd35b4ebc5.jpg">
+    </section>
+
+
+
+<section class="video">
+    <iframe class="videopok" width="720" height="480" src="https://www.youtube.com/embed/-PlAg8R9TG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <div class="videotxt"> 
+    <p class="malek">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis eleifend elit, at elementum elit pulvinar in. Suspendisse feugiat, nisl a bibendum lobortis, est.</p>
+    </div>
+</section>
+
+
+    <footer class="rodape">
+        <p>Adote Aqui  - todos os direitos reservados</p>
+    </footer>
+
+</body>
+
+</html>
